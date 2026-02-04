@@ -29,5 +29,6 @@ noButton.addEventListener("mouseenter", () => {
 });
 
 noButton.addEventListener("click", () => {
-  response.textContent = "ok kys 💞";
+  noButton.style.display = "none"; // hide the No button
+  response.textContent = "you have only one option (did u not read my threat?)";
 });

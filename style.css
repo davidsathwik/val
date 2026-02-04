@@ -1,8 +1,13 @@
 :root {
   color-scheme: light;
   font-family: "Comic Sans MS", "Segoe UI", system-ui, sans-serif;
-  background: radial-gradient(circle at top, #ffe9f2, #ffd1e8 45%, #ffc1dd 100%);
+
+  background-image: url("background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 
 * {
   box-sizing: border-box;
@@ -20,6 +25,7 @@ body {
 
 .card {
   background: rgba(255, 255, 255, 0.9);
+  
   border-radius: 32px;
   padding: 40px 36px;
   max-width: 520px;
