@@ -22,8 +22,8 @@ yesButton.addEventListener("click", () => {
 });
 
 noButton.addEventListener("mouseenter", () => {
-  const shiftX = Math.floor(Math.random() * 120) - 60;
-  const shiftY = Math.floor(Math.random() * 80) - 40;
+  const shiftX = Math.floor(Math.random() * 120) ;
+  const shiftY = Math.floor(Math.random() * 80) ;
   noButton.style.transform = `translate(${shiftX}px, ${shiftY}px)`;
   response.textContent = randomMessage(noMessages);
 });
