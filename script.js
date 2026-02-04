@@ -3,15 +3,15 @@ const noButton = document.querySelector("#noButton");
 const response = document.querySelector("#response");
 
 const yesMessages = [
-  "Yay! You just made my whole year! 💕",
-  "Best answer ever. Can’t wait to celebrate with you! 💖",
-  "Eeek! I’m the luckiest. 💘",
+  "You're my whole entire soul 💕",
+  "my soul longs for your happiness 💖",
+  "you make me happy with every breathe i take💘",
 ];
 
 const noMessages = [
-  "Let me try again… pretty please? 🥺",
-  "Are you sure? I brought extra snacks. 🍓",
-  "I’ll be right here waiting for a yes. 💗",
+  "I LOVE YOU BITCH 🥺",
+  "I AINT EVER STOP LOVING YOU",
+  "BITCH💗",
 ];
 
 const randomMessage = (messages) => messages[Math.floor(Math.random() * messages.length)];
@@ -29,5 +29,5 @@ noButton.addEventListener("mouseenter", () => {
 });
 
 noButton.addEventListener("click", () => {
-  response.textContent = "I’ll keep asking until it’s a yes. 💞";
+  response.textContent = "ok kys 💞";
 });
